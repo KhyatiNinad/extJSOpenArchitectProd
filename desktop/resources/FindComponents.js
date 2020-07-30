@@ -13,16 +13,11 @@ var items = [{
     {
         xtype: 'carousel'
     },
-    {
-        xtype: 'chartnavigator'
-    },
+
     {
         xtype: 'container'
     },
-    {
-        xtype: 'datepanel',
-        title: 'My Panel'
-    },
+
     {
         xtype: 'dialog',
         title: 'My Dialog'
@@ -328,11 +323,6 @@ items = [{
         xtype: 'grid',
         height: '100%',
         width: '100%',
-    }, {
-        xtype: 'tree',
-        height: '100%',
-        width: '100%',
-
     },
     {
         xtype: 'lockedgrid',
@@ -418,63 +408,11 @@ items = [{
         docked: 'top',
         title: 'My Panel'
     },
-    {
-        xtype: 'calendar'
-    },
-    {
-        xtype: 'd3-canvas'
-    },
-    {
-        xtype: 'd3-heatmap',
-        height: 320,
-        width: 400,
-        padding: '20 20 50 80',
-        xAxis: {
-            axis: {
-                ticks: 'd3.timeDay',
-                tickFormat: 'd3.timeFormat(\'%b %d\')',
-                orient: 'bottom'
-            },
-            scale: {
-                type: 'time'
-            },
-            title: {
-                text: 'Date'
-            },
-            field: 'date',
-            step: 86400000
-        },
-        yAxis: {
-            axis: {
-                orient: 'left',
-                tickFormat: 'd3.format(\'$d\')'
-            },
-            scale: {
-                type: 'linear'
-            },
-            title: {
-                text: 'Total'
-            },
-            field: 'bucket',
-            step: 100
-        },
-        colorAxis: {
-            field: 'count',
-            minimum: 0
-        }
-    },
-    {
-        xtype: 'd3-svg'
-    },
-    {
-        xtype: 'pivotgrid'
-    },
+
     {
         xtype: 'treelist'
     },
-    {
-        xtype: 'froalaeditor'
-    },
+
     {
         xtype: 'audio'
     },
@@ -501,10 +439,6 @@ items = [{
                 text: 'Menu Item'
             }
         ]
-    },
-    {
-        xtype: 'datepicker',
-        title: 'My Panel'
     }
 
 ]
